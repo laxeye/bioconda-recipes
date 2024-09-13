@@ -22,10 +22,10 @@ requirements:
   host:
     - biopython
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - biopython
-    - python  >=3.6
+    - python  >=3.8
     - fastp
     - bbmap
     - mash >=2
@@ -35,7 +35,7 @@ requirements:
     - checkm-genome >=1.1.0
     - blast
     - samtools >=1.9
-    - dfast >=1.2.12
+    - bakta
     - nxtrim
     - racon
     - minimap2
